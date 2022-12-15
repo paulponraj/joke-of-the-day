@@ -1,6 +1,6 @@
 import { RedditJokeResponse } from 'types/reddit'
 
-const URL = 'https://www.reddit.com/r/Jokes/.json'
+const URL = 'https://www.reddit.com/r/news/.json'
 
 /**
  * Requests a joke from the url
