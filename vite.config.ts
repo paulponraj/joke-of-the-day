@@ -18,6 +18,4 @@ export default defineConfig({
 	plugins: [react()],
 	test: {
 		globals: true,
-	},
-	base: '/joke-of-the-day/',
 })
