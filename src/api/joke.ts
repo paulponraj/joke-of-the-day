@@ -31,7 +31,7 @@ export const skipFirst2Jokes = (index: number): boolean => {
  * @param {number} length the array length
  */
 export const getRandomJokeIndex = (length: number): number => {
-	const randomIndex = Math.round(Math.random() * 100)
+	const randomIndex = Math.round(Math.random() * 3)
 	if (randomIndex > length && skipFirst2Jokes(randomIndex)) {
 		return getRandomJokeIndex(length)
 	} else {
